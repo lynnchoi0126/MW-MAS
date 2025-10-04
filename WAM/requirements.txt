@@ -1,0 +1,8 @@
+omegaconf
+einops
+pycocotools
+timm
+opencv-python
+lpips
+scikit-image
+scikit-learn

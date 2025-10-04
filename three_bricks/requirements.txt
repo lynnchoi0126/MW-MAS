@@ -1,0 +1,5 @@
+scipy
+pandas
+peft
+transformers
+sentence-transformers
