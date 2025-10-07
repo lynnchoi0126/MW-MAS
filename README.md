@@ -13,7 +13,7 @@ Each image was resized to **512×512**, and its caption was used as the **text p
 
 
 
-### 📝 Text Watermark Agent
+### Text Watermark Agent
 - **Backbone:** Guanaco-7B (PEFT, no fine-tuning)  
 - **Prompt:** Guanaco dialogue template  
 - **Generation:**
@@ -27,13 +27,13 @@ Each image was resized to **512×512**, and its caption was used as the **text p
 `δ = 2.0`
 
 
-### 🖼️ Image Watermark Agent
+### Image Watermark Agent
 - **Framework:** [WAM](https://github.com/facebookresearch/watermark-anything) ([frozen checkpoint](https://huggingface.co/facebook/watermark-anything/blob/main/checkpoint.pth))  
 - **Payload:** 1-bit watermark masked over 50% of pixels  
 
 
 
-### 🧩 Orchestration Agent
+### Orchestration Agent
 Samples are divided into three difficulty regions:
 
 | Region | Condition |
